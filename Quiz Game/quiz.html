@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pawfect Match</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <img class="logo-image"src="logo.png" class="img-fluid">
+        <a href="home.html">Home</a>
+        <a class="active" href="quiz.html">Quiz</a>
+        <a href="GamePage.html">Virtual Shelter</a>
+        <a href="viewDogs.html">Our Dogs</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+
+    <div class="quiz-container">
+        <div class="title">A Pawfect Match</div>
+        <div id="question" class="question">
+            <label>Question</label>
+        </div>
+        <label class="option">
+            <input type="radio" name="option" value="1" />
+            <span class="option1"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="2" />
+            <span class="option2"></span>
+        </label>
+        <label id="option3" class="option">
+            <input type="radio" name="option" value="3" />
+            <span class="option3"></span>
+        </label>
+        <label id="option4" class="option">
+            <input  type="radio" name="option" value="4" />
+            <span class="option4"></span>
+        </label>
+        <label id="option5" class="option">
+            <input type="radio" name="option" value="5" />
+            <span class="option5"></span>
+        </label>
+        <!-- Buttons -->
+        <div id = "counter" class="controls">
+            <button class="previous">Previous</button>
+            <button class="next">Next</button>
+            <p class = "counter">Question 1/10</p>
+        </div>
+    </div>
+
+    <div class="result">
+
+    </div>
+
+    <script src=questions.js></script>
+    <script src=dogs.js></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
